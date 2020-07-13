@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.UUID;
+
 @RestController
 @RequestMapping("/payment")
 public class PaymentController {
@@ -31,5 +33,10 @@ public class PaymentController {
         int i = paymentService.addPayment(serial);
         CommonResult<Integer> result=new CommonResult<>("200","添加成功"+port,i);
         return  result;
+    }
+
+    @RequestMapping("/payment/get")
+    public  String get(){
+        return  "payment:"+port+"--"+ UUID.randomUUID().toString();
     }
 }
