@@ -1,0 +1,20 @@
+server:
+  port: 6060
+
+spring:
+  application:
+    name: cloud-orderOpenFeign-service
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    service-url:
+      #defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: orderOpenFeign6060
+    prefer-ip-address: true
+logging:
+  level:
+    com.hxq.springcloud.service.PaymentService: debug
