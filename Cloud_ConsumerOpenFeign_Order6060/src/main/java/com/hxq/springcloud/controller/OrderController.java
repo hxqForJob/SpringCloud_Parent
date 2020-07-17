@@ -20,4 +20,9 @@ public class OrderController {
     public CommonResult getPaymentById(@PathVariable("id") int id){
         return paymentService.getPaymentById(id);
     }
+
+    @RequestMapping("/payment/get")
+    public String get(){
+        return paymentService.get();
+    }
 }

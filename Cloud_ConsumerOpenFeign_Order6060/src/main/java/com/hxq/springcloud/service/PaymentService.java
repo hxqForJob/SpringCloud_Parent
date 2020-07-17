@@ -13,4 +13,7 @@ public interface PaymentService {
     @RequestMapping("/payment/getPaymentById/{id}")
      CommonResult getPaymentById(@PathVariable("id") int id);
 
+    @RequestMapping("/payment/payment/get")
+    String get();
+
 }
