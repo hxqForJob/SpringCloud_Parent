@@ -1,5 +1,4 @@
-  server
-  port: 6060
+
 
 
   eureka:
@@ -12,3 +11,8 @@
   spring:
     application:
       name: cloud-provider-hystrix-order
+  server:
+    port: 6060
+  feign:
+    hystrix:
+      enabled: true
