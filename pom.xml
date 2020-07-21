@@ -21,6 +21,7 @@
       <module>Cloud_ConsumerConsul_Order6060</module>
     <module>Cloud_ConsumerFeignHystrix_Order6060</module>
       <module>Cloud_Provider_Hystrix_Payment8007</module>
+      <module>Cloud_ConsumerHystrixDashboard_Order9001</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->
