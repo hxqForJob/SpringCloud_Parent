@@ -13,6 +13,6 @@
       name: cloud-provider-hystrix-order
   server:
     port: 6060
-  feign:
+  feign:  
     hystrix:
       enabled: true
