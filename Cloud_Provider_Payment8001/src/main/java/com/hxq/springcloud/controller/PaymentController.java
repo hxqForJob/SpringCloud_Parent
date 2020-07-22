@@ -22,7 +22,8 @@ public class PaymentController {
      private PaymentService paymentService;
 
     @RequestMapping("/getPaymentById/{id}")
-    public CommonResult getPaymentById(@PathVariable("id") int id){
+    public CommonResult getPaymentById(@PathVariable("id") int id) throws InterruptedException {
+        //Thread.sleep(6000);
         Payment payment = paymentService.getPaymentById(id);
         CommonResult<Payment> result=new CommonResult<>("200","查询成功"+port,payment);
         return  result;
