@@ -23,6 +23,8 @@
       <module>Cloud_ConsumerHystrixDashboard9001</module>
       <module>Cloud_Gateway_Gateway9527</module>
     <module>Cloud_Provider_Hystrix_Payment8007</module>
+      <module>Cloud_Config_Center_3344</module>
+    <module>Cloud_Config_Client_3355</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->
