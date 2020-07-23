@@ -27,6 +27,8 @@
     <module>Cloud_Config_Client_3355</module>
     <module>Cloud_Config_Client_3366</module>
     <module>Cloud_Stream_Rabbitmq_Provider8801</module>
+    <module>Cloud_Stream_Rabbitmq_Consumer8802</module>
+      <module>Cloud_Stream_Rabbitmq_Consumer8803</module>
 
   </modules>
 
