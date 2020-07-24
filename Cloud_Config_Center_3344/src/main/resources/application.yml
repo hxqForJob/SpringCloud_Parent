@@ -8,8 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/hxqForJob/springcloud-config.git
-          search-paths:
-            - springcloud-configs
+          search-paths: "{application}"
       label: master
   rabbitmq:
     host: 192.168.1.108
