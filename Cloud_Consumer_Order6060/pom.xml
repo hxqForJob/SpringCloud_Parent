@@ -47,6 +47,11 @@
             <artifactId>Cloud_Common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--包含了sleuth+zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>   
     </dependencies>
 
 </project>

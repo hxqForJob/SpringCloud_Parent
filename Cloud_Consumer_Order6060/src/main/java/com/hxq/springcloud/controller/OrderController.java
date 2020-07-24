@@ -72,4 +72,11 @@ public class OrderController {
     public String payment_global_fallbackMethd(){
         return "全局降级异常："+Thread.currentThread().getName()+" 系统繁忙, 请稍候再试,哭了哇呜";
     }
+    // ====================> zipkin+sleuth
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin()
+    {
+        String result = restTemplate.getForObject(providerName+"/payment/zipkin", String.class);
+        return result;
+    }
 }
