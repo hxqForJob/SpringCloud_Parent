@@ -30,6 +30,7 @@
     <module>Cloud_Stream_Rabbitmq_Consumer8802</module>
       <module>Cloud_Stream_Rabbitmq_Consumer8803</module>
       <module>cloudalibaba_provider_payment9001</module>
+    <module>cloudalibaba_provder_payment9002</module>
 
   </modules>
 
