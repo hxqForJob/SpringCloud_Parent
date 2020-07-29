@@ -2,7 +2,6 @@ package com.hxq.springcloud.controller;
 
 import com.hxq.springcloud.loadbalance.impl.LoadBalanceImpl;
 import com.hxq.springcloud.pojo.CommonResult;
-import com.hxq.springcloud.pojo.Payment;
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;

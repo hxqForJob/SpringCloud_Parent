@@ -4,7 +4,6 @@ import com.hxq.springcloud.loadbalance.LoadBalance;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.stereotype.Component;
 
-import java.lang.annotation.Annotation;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
