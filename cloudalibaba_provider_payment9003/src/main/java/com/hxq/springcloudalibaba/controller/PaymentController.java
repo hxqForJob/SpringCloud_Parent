@@ -1,7 +1,7 @@
-package com.hxq.springcloud.controller;
+package com.hxq.springcloudalibaba.controller;
 
-import com.hxq.springcloud.pojo.CommonResult;
-import com.hxq.springcloud.pojo.Payment;
+import com.hxq.springcloudalibaba.pojo.CommonResult;
+import com.hxq.springcloudalibaba.pojo.Payment;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
